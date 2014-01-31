@@ -1,6 +1,7 @@
 <?php
 
 return array(
+    'name' => 'icrm',
     'preload' => array('log'),
     'components' => array(
         'log' => array(
