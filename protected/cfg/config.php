@@ -14,6 +14,7 @@ return array(
             ),
         ),
     ),
+    'params' => require dirname(__FILE__) . '/config_params.php',
 );
 
 /* End of file main.php */
