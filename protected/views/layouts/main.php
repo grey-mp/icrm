@@ -8,15 +8,17 @@
 
         <link rel="shortcut icon" href="/images/favicon.png">
 
+        <?php Yii::app()->getClientScript()->registerCssFile('//ajax.googleapis.com/ajax/libs/dojo/1.9.2/dijit/themes/claro/claro.css'); ?>
         <?php Yii::app()->getClientScript()->registerCssFile('//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css'); ?>
         <?php Yii::app()->getClientScript()->registerCssFile('/css/icrm.css'); ?>
 
         <?php Yii::app()->getClientScript()->registerScriptFile('//code.jquery.com/jquery-1.10.2.min.js', CClientScript::POS_END); ?>
+        <?php Yii::app()->getClientScript()->registerScriptFile('//ajax.googleapis.com/ajax/libs/dojo/1.9.2/dojo/dojo.js', CClientScript::POS_END); ?>
         <?php Yii::app()->getClientScript()->registerScriptFile('//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js', CClientScript::POS_END); ?>
 
         <title><?php echo CHtml::encode(isset($this->pageTitle) ? $this->pageTitle : Yii::app()->name); ?></title>
     </head>
-    <body>
+    <body class="claro">
 
         <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container">
