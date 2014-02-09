@@ -79,6 +79,36 @@ $this->pageTitle = Yii::app()->name . ' - Home';
             </ul>
         </div> 
     <?php endforeach; ?>
-
 </div>
+
+<hr />
+<h2>Labels</h2>
+<h1>
+    Label: 
+    <span class="label label-default">H1</span>
+    <span class="label label-primary">H1</span>
+    <span class="label label-danger">H1</span>
+    <span class="label label-info">H1</span>
+    <span class="label label-success">H1</span>
+    <span class="label label-warning">H1</span>
+</h1>
+<h2>
+    Label: <span class="label label-default">H2</span>
+</h2>
+<h3>
+    Label: <span class="label label-default">H3</span>
+</h3>
+<h4>
+    Label: <span class="label label-default">H4</span>
+</h4>
+<h5>
+    Label: <span class="label label-default">H5</span>
+</h5>
+<h6>
+    Label: <span class="label label-default">H6</span>
+</h6>
+
+<hr />
+<h2>Badges</h2>
+<a href="">Nuovi messaggi <span class="badge badge-important">10</span></a>
 
